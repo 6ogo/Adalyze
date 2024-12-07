@@ -71,12 +71,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const logout = async () => {
     try {
       await AuthService.logout();
-    } catch (error) {
-      console.error('Logout error:', error);
-    } finally {
       setUser(null);
       localStorage.removeItem('token');
       navigate('/');
+    } catch (error) {
+      console.error('Logout error:', error);
     }
   };
 

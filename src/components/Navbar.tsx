@@ -20,7 +20,10 @@ export function Navbar() {
             </Link>
           </div>
           
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-6">
+            <Link to="/pricing" className="text-gray-700 hover:text-blue-600">
+              Pricing
+            </Link>
             {user ? (
               <>
                 <Link
@@ -46,10 +49,10 @@ export function Navbar() {
               </>
             ) : (
               <Link
-                to="/auth"
+                to="/dashboard"
                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
               >
-                Dashboard
+                Go to Dashboard
               </Link>
             )}
           </div>

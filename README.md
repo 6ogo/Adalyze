@@ -1,6 +1,6 @@
-# AdAlyze - Marketing Analytics Platform
+# Adalyze - Marketing Analytics Platform
 
-AdAlyze is a comprehensive marketing analytics platform that helps businesses make data-driven decisions by providing unified insights across all marketing channels.
+Adalyze is a comprehensive marketing analytics platform that helps businesses make data-driven decisions by providing unified insights across all marketing channels.
 
 ## Features
 
@@ -39,8 +39,8 @@ AdAlyze is a comprehensive marketing analytics platform that helps businesses ma
 Need help? Contact us:
 - Email: support@adalyze.se
 - Visit: [Contact Page](https://adalyze.se/contact)
-- LinkedIn: [AdAlyze](https://www.linkedin.com/company/adalyze/)
+- LinkedIn: [Adalyze](https://www.linkedin.com/company/adalyze/)
 
 ## License
 
-Copyright © 2024 AdAlyze. All rights reserved.
+Copyright © 2024 Adalyze. All rights reserved.

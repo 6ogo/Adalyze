@@ -4,7 +4,6 @@ import { Linkedin } from 'lucide-react';
 
 export function Footer() {
   const handleLinkClick = () => {
-    // Smooth scroll to top with a slight offset to account for the header
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
@@ -50,6 +49,15 @@ export function Footer() {
                   onClick={handleLinkClick}
                 >
                   Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/pricing" 
+                  className="text-gray-600 hover:text-blue-600"
+                  onClick={handleLinkClick}
+                >
+                  Pricing
                 </Link>
               </li>
             </ul>

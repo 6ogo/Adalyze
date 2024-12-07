@@ -7,11 +7,8 @@ import { Hero } from './components/Hero';
 import { Dashboard } from './pages/Dashboard';
 import { DemoBoard } from './pages/DemoBoard';
 import { Contact } from './pages/Contact';
-import { About } from './pages/About';
-import { Privacy } from './pages/Privacy';
-import { Terms } from './pages/Terms';
-import { Docs } from './pages/Docs';
 import { Auth } from './pages/Auth';
+import { Pricing } from './pages/Pricing';
 import { ProtectedRoute } from './components/ProtectedRoute';
 
 function App() {
@@ -30,11 +27,8 @@ function App() {
                   <Dashboard />
                 </ProtectedRoute>
               } />
-              <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/privacy" element={<Privacy />} />
-              <Route path="/terms" element={<Terms />} />
-              <Route path="/docs" element={<Docs />} />
+              <Route path="/pricing" element={<Pricing />} />
             </Routes>
           </main>
           <Footer />

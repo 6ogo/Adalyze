@@ -67,7 +67,7 @@ export function Contact() {
                 <Mail className="h-6 w-6 text-blue-600 mt-1" />
                 <div>
                   <h3 className="font-medium text-gray-900">Email</h3>
-                  <p className="text-gray-600">contact@adalyze.se</p>
+                  <p className="text-gray-600">support@adalyze.se</p>
                 </div>
               </div>
 
@@ -84,8 +84,8 @@ export function Contact() {
                 <div>
                   <h3 className="font-medium text-gray-900">Address</h3>
                   <p className="text-gray-600">
-                    Sveavägen 100<br />
-                    113 50 Stockholm<br />
+                    Coming...<br />
+                    Stockholm<br />
                     Sweden
                   </p>
                 </div>
